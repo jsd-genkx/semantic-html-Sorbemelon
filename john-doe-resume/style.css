@@ -1,0 +1,60 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Numans&display=swap");
+/* <section> --> element, tag, #about, #contact --> id, .box --> class */
+* {
+    font-family: 'Numans', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+main {
+    padding: 10px 0px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #FFF;
+    border-radius: 15px;
+    padding: 10px 0;
+    margin: 0px 20px;
+    text-align: center;
+}
+
+section {
+    background-color: #b3f992d7;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px 30px;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid #0b280c;
+}
+
+section h2 {
+    color: #2d2d2d;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px -20px;
+}
+
+#about h2 {
+    background-color: #86e5ff;
+}
+
+#experience h2 {
+    background-color: #ffba86;
+}
+
+#education h2 {
+    background-color: #f8acfd;
+}
+
+footer {
+    background-color: #ebffe3d7;
+    padding: 5px 50px;
+    margin: 10px -10px -10px -10px;
+}
