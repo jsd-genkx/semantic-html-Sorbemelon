@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Numans&display=swap");
+
+/* CSS Reset  */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: "Aldrich";
+}
+
+/* CSS code */
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+.container {
+    background-color: #F5F5F5;
+    background-image: url("images/Crystal_bg.jpg");
+    background-size: cover;
+    margin: 30px;
+    height: 400px;
+    width: 250px;
+    border: 5px solid #8fa6b4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.card_name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin:  10px auto 0 20px;
+    padding: 1px 0 1px 5px;
+    width: 200px;
+    color: #002c47;
+    background-image: linear-gradient(90deg, rgba(255, 221, 0, 1), rgba(255, 255, 255, 0));
+}
+
+.card_type {
+    position: absolute;
+    width: 3rem;
+    margin: -17px 0 0 110px;
+}
+
+.image {
+    background-image: linear-gradient(150deg, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0)), url("images/wuwa_sky2_v2.png");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 0px auto 0px;
+    /* border-radius: 5%; */
+    border: 3px solid transparent;
+    border-image: linear-gradient(45deg, rgb(129, 0, 209), cyan, blue,lime, gold, orange, red) 1;
+}
+
+img {
+    width: 112%;
+    margin: -12% auto 0 0;
+    /* outline: solid 1px; */
+}
+
+.star {
+    margin: 4px 0 -4px 20px;
+}
+
+.star div:not(:last-child) {
+    width: 20px;
+    margin: 0 -3px 0 ;
+    display: inline-block;
+    /* outline: 1px solid red; */
+}
+
+.card_class {
+    position: absolute;
+    font-size: 0.5rem;
+    margin: 1.5px 0 0 45px;
+    padding: 2px 4px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(199, 0, 0);
+    border-radius: 10px;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.desc_name {
+    color: #0049b7;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.desc_detail {
+    font-size: 0.4rem;
+    margin-top: 3px;
+    text-align: justify;
+}
+
+.tag {
+    margin: 3px 20px 1px;
+}
+
+.sub_tag1, .sub_tag2 {
+    display: inline-block;
+    width: 40px;
+    margin: 0 2.5px;
+}
+
+.stats {
+    height: 15px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+}
+
+.hp {
+    color: rgb(217, 0, 0);
+}
+
+.mp {
+    color: rgb(0, 0, 204);
+}
+
+.atk {
+    color: rgb(233, 124, 0);
+}
+
+.def {
+    color: rgb(131, 33, 33);
+}
+
+.spd {
+    color: rgb(0, 200, 200);
+}
+
+.luck {
+    color: rgb(102, 211, 0);
+}
